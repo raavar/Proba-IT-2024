@@ -1,0 +1,28 @@
+.top-rated {
+    padding: 25px;
+    background-color: #00236D;
+    color: white;
+}
+
+.top-rated h1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.recipes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.recipe {
+    color: black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.details {
+    padding: 15px;
+}

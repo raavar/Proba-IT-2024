@@ -1,0 +1,52 @@
+.contact {
+    color: #009C41;
+    padding: 5px 300px;
+}
+
+.content {
+    display: flex;
+   justify-content: space-between; 
+    border-color: #009C41;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 3px solid #009C41;
+}
+
+.message {
+    padding-left: 50px;
+    padding-bottom: 10px;
+    width: 100%;
+    margin: 10px;
+}
+
+.message-textarea {
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    border: 3px solid #009C41;
+}
+
+.submit {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.submit-button {
+    color: white;
+    background-color: #009C41;
+    font-size: 16px;
+    padding: 10px 30px;
+    border: 3px solid #009C41;
+    border-radius: 25px; 
+}

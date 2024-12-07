@@ -1,0 +1,29 @@
+footer {
+    background-color: #00236D;
+    color: white;
+    text-align: center;
+    margin: 0 300px;
+    padding: 30px 0;
+    border-top-right-radius: 90%;
+    border-top-left-radius: 90%;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+footer .social-icons a {
+    text-decoration: none;
+}
+
+footer .social-icons img {
+    height: 30px; /* Set the icon size */
+    width: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+}
+
+footer .social-icons img:hover {
+    transform: scale(1.2); /* Slight zoom on hover */
+}
