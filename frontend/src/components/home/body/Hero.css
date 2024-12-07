@@ -1,0 +1,17 @@
+.hero {
+    background-image: url('/public/hero.png'); /* Path to your background image */
+    background-size: cover; /* Ensure the background covers the entire section */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 1000px; /* Set a fixed height for the section */
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    position: relative; /* Allow for potential future overlay elements */
+}
+
+.hero-content img {
+    width: 600px; /* Set the logo size */
+    height: auto; /* Maintain aspect ratio */
+    z-index: 1; /* Ensure it appears above the background */
+}
