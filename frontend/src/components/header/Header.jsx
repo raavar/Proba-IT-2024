@@ -1,5 +1,7 @@
 import "./Header.css"
 
+import { NavLink } from "react-router";
+
 function Header(){
 
     return(
@@ -10,7 +12,7 @@ function Header(){
             <div className="buttons">
                 <nav className="recipe-buttons">
                     <a href="#recipes">Recipes</a>
-                    <a href="#add-recipe">Add Recipe</a>
+                    <NavLink to="/add-recipe" end>Add Recipe</NavLink>
                 </nav>
                 <nav className="auth-buttons">
                     <a href="#login" className="login">Login</a>

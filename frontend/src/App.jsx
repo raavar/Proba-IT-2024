@@ -1,14 +1,18 @@
-import Header from "./components/header/Header.jsx"
+import { BrowserRouter, Route, Routes } from "react-router";
+
 import Home from "./components/home/Home.jsx"
-import Footer from "./components/footer/Footer.jsx"
+import AddRecipe from "./components/add-recipe/AddRecipe.jsx";
 
 function App() {
 
   return(
     <div className="App">
-      <Header />
-      <Home />
-      <Footer />
+      <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/add-recipe" element={<AddRecipe />} />
+          </Routes>
+      </BrowserRouter>  
     </div>
   );
 }

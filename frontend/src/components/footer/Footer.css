@@ -1,11 +1,9 @@
 footer {
-    background-color: #00236D;
     color: white;
     text-align: center;
-    margin: 0 300px;
-    padding: 30px 0;
-    border-top-right-radius: 90%;
-    border-top-left-radius: 90%;
+    background-image: url("/public/footer.png");
+    background-size: cover;
+    padding: 20px 0;
 }
 
 footer .social-icons {
