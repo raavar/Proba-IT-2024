@@ -14,10 +14,10 @@ Pentru a rula backend-ul, în directorul backend se rulează comanda: npm run de
 
 Am reușit să fac o implementare simpla pentru un user auth.
 * să dau register la mai mulți utilizatori
-* să mă conectez la contirole respective
+* să mă conectez la conturile respective
 * să mă deconectez
 
-Nu este conectat la vreo bază de date. Acestea sunt salvate doar într-o sesiune.
+Nu este conectat la vreo bază de date. Acestea sunt salvate doar în sesiunea curentă.
 
 ### Nu am reușit să fac conexiunea între frontend și backend.
 
