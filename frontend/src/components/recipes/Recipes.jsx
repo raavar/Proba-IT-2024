@@ -1,16 +1,16 @@
 import Header from "../header/Header";
 
-function AddRecipe() {
+function Recipes() {
     return(
-        <div className="AddRecipe">
+        <div className="Recipes">
             <Header />
             <div>
                 <h1>
-                    add recipe
+                    recipe
                 </h1>
             </div>
         </div>
     );
 }
 
-export default AddRecipe
+export default Recipes

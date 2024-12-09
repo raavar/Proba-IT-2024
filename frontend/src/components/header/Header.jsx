@@ -7,16 +7,18 @@ function Header(){
     return(
         <header className="header">
             <div className="logo">
-                <img src="/public/logo-header.png" alt="Logo" />
+                <NavLink to="/" end>
+                    <img src="/public/logo-header.png" alt="Logo" />
+                </NavLink>
             </div>
             <div className="buttons">
                 <nav className="recipe-buttons">
-                    <a href="#recipes">Recipes</a>
+                    <NavLink to="/recipes" end>Recipes</NavLink>
                     <NavLink to="/add-recipe" end>Add Recipe</NavLink>
                 </nav>
                 <nav className="auth-buttons">
-                    <a href="#login" className="login">Login</a>
-                    <a href="#register">Register</a>
+                    <NavLink to="/login" end className="login">Login</NavLink>
+                    <NavLink to="/register" end>Register</NavLink>
                 </nav>
             </div>
             

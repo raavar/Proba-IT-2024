@@ -12,12 +12,12 @@ function Contact() {
             <form onSubmit={handleSubmit}>
                 <div className="content">
                     <div className="contact-details">
-                        <input type="text" name="name" value="First Name" required />
-                        <input type="text" name="name" value="Last Name" required />
-                        <input type="email" name="email" value="Email" required />
+                        <input type="text" name="name" placeholder="First Name" required />
+                        <input type="text" name="name" placeholder="Last Name" required />
+                        <input type="email" name="email" placeholder="Email" required />
                     </div>
                     <div className="message">
-                        <textarea className="message-textarea" name="message" value="Message" required></textarea>
+                        <textarea className="message-textarea" name="message" placeholder="Message" required></textarea>
                     </div>
                 </div>
                 <div className="submit">
